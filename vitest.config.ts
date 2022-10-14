@@ -4,5 +4,8 @@ export default defineConfig({
   test: {
     testTimeout: 80_000,
     hookTimeout: 25_000,
+    coverage: {
+      reporter: ['text','html'],
+    },
   },
 });
